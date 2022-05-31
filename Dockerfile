@@ -1,5 +1,5 @@
 FROM alpine:latest
-ARG nmap_ver=7.91
+ARG nmap_ver=7.92
 LABEL org.opencontainers.image.source="https://github.com/MTES-MCT/nmap-docker"
 LABEL org.opencontainers.image.vendor="Tristan Robert"
 RUN apk update && \
