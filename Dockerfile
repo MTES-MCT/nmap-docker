@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.21
 ARG nmap_ver=7.99
 LABEL org.opencontainers.image.source="https://github.com/MTES-MCT/nmap-docker"
 LABEL org.opencontainers.image.vendor="Tristan Robert"
